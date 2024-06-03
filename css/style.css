@@ -1,0 +1,67 @@
+@media (min-width: 992px) {
+  .offcanvas {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+
+.fa-angle-down{
+    font-size: 15px;
+}
+.dropdown .dropdown-menu{
+  display: none;
+}
+@media screen and (min-width:769px) {
+  .dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+}
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125em;
+    margin-left: .125em;
+}
+#navbarDropdown:hover{
+  color: #0C7B79;
+}
+.navbar .dropdown-toggle::after{
+  display: none;
+}
+.ptag{
+  font-size: 20px;
+}
+#btn:hover{
+  background-color: rgb(44, 226, 193);
+}
+.fa-magnifying-glass{
+  font-size: 20px;
+}
+.image-container{
+  position: relative;
+  display: inline-block;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: azure;
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn1:hover{
+  color: white;
+  background-color: rgb(4, 123, 107);
+}
+#links:hover{
+  color: black;
+}
+.custom-link:focus,
+.custom-link:active{
+  background-color: red;
+}
