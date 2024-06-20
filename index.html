@@ -8,14 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <!-- <title>my page</title> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>my page</title>
     <style>
         
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm top bg-dark">
+  <nav class="navbar navbar-expand top bg-dark">
     <div class="container header">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -174,12 +174,13 @@
                 </ul>
                 </ul>
            <form class="d-flex justify-content-end" action="">
-              
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <i style="float: left;margin-right:30px" class="fa-solid mt-3 fa-magnifying-glass"></i>
+            <button style="float: right;" class="btn btn-success btn-opacity-25">purshase</button> 
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
               <i style="float: left;margin-right:30px" class="fa-solid mt-3 fa-magnifying-glass"></i>
-            </button>
+            </button> -->
             <!-- offcanvas محتوا -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
               <div class="offcanvas-header">
                 <h5 id="offcanvasRightLabel"></h5>
                 <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="بستن">
@@ -188,7 +189,7 @@
               </div>
               <div class="offcanvas-body">
                 
-                <h2>what are you looking for?</h2>
+                <h2>what are you looking for?</h2> -->
                 <!-- <div>
                   <button class="text-white border border-none rounded-3 px-2 py-2" style="background-color: #128d8d;">consulting</button>
                   <button class="text-white border border-none rounded-3 px-2 py-2" style="background-color: #128d8d;">Audit</button>
@@ -295,59 +296,68 @@
         <div class="row">
         <div class="col-lg-12 col-sm-6">
           
-          <button  class=" text-white fs-4 rounded-3 me-3" style="border:none;float: right;background-color: #128d8d;width: 100px;height:50px">see all</button>
+          <button  class=" text-white fs-4 rounded-3" style="border:none;float: right;background-color: #128d8d;width: 100px;height:50px;margin-right:150px;">see all</button>
         </div>
       </div>
          
         </div>
         </div>
-      <div class=" bg-light" style="width:100%;height:800px;">
-        <div class="container">
+      <div class=" bg-light" style="width:100%;height:600px;">
+        <div class="container me-5">
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-danger">
-              <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Audit & Assurance</b></p>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white me-5 rounded-3 ms-3">
+              <p class="ms-3" style="text-align: center;margin-top: 90px;font-size:30px"><b>Audit & Assurance</b></p>
                   <p class="" style="margin-left: 50px;">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-warning">
-              <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Audit & Assurance</b></p>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white me-5 rounded-3">
+              <p class="ms-3" style="text-align: center;margin-top: 90px;font-size:30px"><b>Financial Advisory</b></p>
               <p class="" style="margin-left: 50px;">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-primary">
-              <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Financial Advisory</b></p>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white rounded-3">
+              <p class="ms-3" style="text-align: center;margin-top: 90px;font-size:30px"><b>Financial Advisory</b></p>
                   <p class="d-flex justify-content-start" style="margin-left: 50px;margin-left:80px">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
             </div>
           </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 bg-danger">
-                <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Middle Marketing</b></p>
-                  <p class="d-flex justify-content-start" style="margin-left: 50px;margin-left:80px">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
+            <div class="row mt-3">
+              <div class="col-lg-3 col-md-6 col-sm-12 bg-white me-5 rounded-3 ms-3">
+                <p class="ms-3" style="text-align: center;margin-top: 90px;font-size:30px"><b>Middle Marketing</b></p>
+                    <p class="" style="margin-left: 50px;">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 bg-warning">
-                <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Audit & Assurance</b></p>
+              <div class="col-lg-3 col-md-6 col-sm-12 bg-white me-5 rounded-3">
+                <p class="ms-3" style="text-align: center;margin-top: 90px;font-size:30px"><b>Legal Consulting</b></p>
                 <p class="" style="margin-left: 50px;">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 bg-primary">
-                <p class="" style="text-align: center;margin-top: 120px;font-size:30px"><b>Financial Advisory</b></p>
-                    <p class="d-flex justify-content-start" style="margin-left: 50px;margin-left:80px">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
+              <div class="col-lg-3 col-md-6 col-sm-12 bg-white rounded-3">
+                <p class="ms-3" style="text-align: left;margin-top: 90px;font-size:30px"><b>Regulatory Risk</b></p>
+                    <p class="d-flex justify-content-start" style="margin-left:20px">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
               </div>
             </div>
-        </div>
-          </div>
           
-      
-       
-        <div class="container-fluid d-flex" style="background-color: black;">
-          <div class="row">
-            <div class="col-lg-12 col-sm-12 bg-dark" style="width:700px">
-          <p class=" text-info text-uppercase" style="margin-top: 70px;margin-left:100px">about the network</p>
-          <h1 class="text-white" style="margin-left: 100px;font-size:60px"><b><span class="bg-info bg-opacity-25">The</span> Company</b></h1>
-          <span class="text-secondary" style="margin-left: 100px;">For 12 years we have been providing audit and warranty, financial <br> <span style="margin-left: 100px;"> advice, risk advice, taxes and related services to select clients.</span></span>
+      </div>
+       </div>
+        <div class=" bg-dark">
+          <div class="row ms-1">
+              <div class="col-sm bg-dark">
+                <div class="row">
+                  <div class="col-12">
+                    <p class=" text-info text-uppercase" style="margin-top: 70px;margin-left:100px">about the network</p>
+                  </div>
+                </div>
+                 
+                  
+                    <div class="col-sm-12">
+                      <p class="text-white" style="margin-left: 100px;font-size:50px"><b><span class="bg-info bg-opacity-25">The</span> Company</b></p>
+                    </div>
+                
+         <div class="col-12">
+          <span class="text-secondary text-start text-sm-center" style="margin-left: 100px;width:50px;height:40px;">For 12 years we have been providing audit and warranty, financial <br> <span style="margin-left: 100px;"> advice, risk advice, taxes and related services to select clients.</span></span>
+        </div>
           <div class="row mt-5" style="margin-left: 90px;">
-            <div class="col-sm-6 text-white">
+            <div class="col-sm text-white">
               <h3><i class="fa-solid fa-lock"></i> Trandition</h3>
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
             </div>
-            <div class="col-sm-6 text-white">
+            <div class="col-sm text-white">
               <h3><i class="fa-solid fa-lock"></i> Securety</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
             </div>
@@ -369,20 +379,14 @@
               <button class="ms-5 btn btn-outline-info bg-dark">READ IN MORE</button>
             </div>
         </div>
-        
-
-      </div>
-      
-      </div>
-        <section>
-            <div class="row">
-              <div class="col-lg-12">
-                <img src="img/about-4.webp" alt="" style="float:right;width: 900px;height:700px">
               </div>
-            </div>
+                  <div class="col-sm bg-dark">
+                      <img src="img/about-4.webp" alt="picture" style="float:right;width: 750px;height:700px;">
+                  </div>
+              
           </div>
-        </section>
-        </div>
+          </div>
+      </div>
               <!-- <div class="col-sm-6 col-md-6 text-center mt-3">
                 <h3 class="font-weight-bold text-light "><i class="fa-solid fa-lock"></i>Trandition</h3>
                 <p class="text-white" style="margin-left: 50px;">Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
@@ -414,25 +418,29 @@
            
           </div> -->
        
-      <div style="width: 100%;height:1200px">
+      <div class="mt-5" style="width: 100%;height:250px">
         <p class="text-info text-center">we do more fore everyone</p>
         <h1 class="font-weight-bold text-center" style="font-size: 70px;">action & <span class="bg-info bg-opacity-25 px-3 py-2">project</span></h1>
          <div class="container my-4 d-flex justify-content-center">
           <div class="row">
-            <div class="col-sm-4 col-lg-5">
-          <a style="border:none;text-decoration:none" class="text-secondary bg-white mx-5" role="button"id="showImages1">ALL</a>
-          <a style="border:none;text-decoration: none;" class="custom-link bg-white text-secondary mx-5" role="button" id="showImages2">INSTITUTIONAL</a>
+            <div class="col-sm">
+          <a style="border:none;text-decoration:none" class="text-secondary mx-5" role="button"id="showImages1">ALL</a>
+          <a style="border:none;text-decoration: none;" class="custom-link  text-secondary mx-5" role="button" id="showImages2">INSTITUTIONAL</a>
           <a style="text-decoration:none"  class="custom-link text-secondary mx-5" role="button" id="showImages3">SOCIAL</a>
             </div>
-            <div class="col-sm-4 col-lg-6">
+          </div>
+          <div class="row">
+            <div class="col-sm d-inline-block">
               <a style="text-decoration:none" class="custom-link text-secondary mx-5" role="button" id="showImages4">EVENTS</a>
           <a style="text-decoration:none" class="custom-link text-secondary mx-5" role="button" id="showImages5">INNOVATION</a>
           <a style="text-decoration:none" class="custom-link text-secondary mx-5" role="button" id="showImages6">ENVIRONMENT</a>
             </div>
-          <div class="col-sm-12 col-lg-1">
-            <a style="text-decoration:none" class="custom-link text-secondary mx-5" role="button" id="showImages7">TECHNOLOGY</a>
           </div>
-          
+          <div class="row">
+          <div class="col-sm">
+            <a style="text-decoration:none" class="custom-link text-secondary mx-5 " role="button" id="showImages7">TECHNOLOGY</a>
+          </div>
+        </div>
 
       </div>
             </div>
@@ -441,42 +449,81 @@
       <div class="image-container d-flex justify-content-center" id="images1">
           <div class="container">
             <div class="row">
-              <div class=" col-sm-4 d-inline-block">
-                <img src="img/project-1.webp" class="img-fluid rounded-3" alt="Image 1">
+              <div class="col-sm-4 d-inline-block">
+                <div class="image-container">
+                  <img  src="img/project-1.webp" class=" img-fluid rounded-3" alt="Image 1">
+                  <div class="image-text">
+                    <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                  </div>
+                </div>
+                
               </div>
               <div class="col-sm-4">
+                <div class="image-container">
                 <img src="img/project-2.webp" class="img-fluid rounded-3" alt="Image 2">
+                <div class="image-text">
+                  <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                </div>
               </div>
+            </div>
               <div class="col-sm-4">
+                <div class="image-container">
                 <img src="img/project-3.webp" class="img-fluid rounded-3" alt="Image 2">
+                <div class="image-text">
+                  <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                </div>
+              </div>
               </div>
               <div class="col-sm-4 mt-3">
                 <img src="img/project-4.webp" class="img-fluid rounded-3" alt="Image 2">
+                <div class="image-text">
+                  <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                </div>
               </div>
               <div class="col-sm-4 mt-3">
                 <img src="img/project-5.webp" class="img-fluid rounded-3" alt="Image 2">
+                <div class="image-text">
+                  <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                </div>
               </div>
               <div class="col-sm-4 mt-3">
                 <img src="img/project-6.webp" class="img-fluid rounded-3" alt="Image 2">
+                <div class="image-text">
+                  <p class="text-white fs-4">ACADEMIC PROFESSIONAL <br>PROGRAM IN SOCIAL MEDIA</p>
+                </div>
               </div>
             </div>
           </div>
       </div> 
       </div>
-      <div class="container mt-3" style="width:100%;height:500px">
-        <div class="image-container">
-          <img src="img/shatranj.jpg" alt="picture" style="width: 100%;height:400px">
-          <div class="overlay">
-            <h3>overlay content</h3>
+      <!-- <div id="shatranj" class="ms-2 mt-3">
+        <div class="image-container" style="width:100%;height:600px;">
+          <img src="img/shatranj.jpg" alt="" >
+          <div class="overlay-text1">
+            <p class="text-info">WHAT ARE WE DOING</p>
+            <p class="mt-5 text-white" style="font-size: 60px;"><span class="bg-info bg-opacity-75">Results</span> in Numbers</p>
+            <div>
+              <div class="row">
+                <div class="col-sm-3">100</div>
+                <div class="col-sm-3">200</div>
+                <div class="col-sm-3">300</div>
+                <div class="col-sm-3">400</div>
+
+              </div>
+            </div>
           </div>
         </div>
-        
-      </div>
-      <div class="mt-5 d-flex" style="width: 100%;height:700px;">
-        <div class="container-fluid mt-5 ms-5">
+      </div> -->
+      <!-- <div id="shatranj" class=" mt-5 bg-danger ms-2" style="width: 100%;height:500px">
+        <img src="img/shatranj.jpg" class="img-fluid" alt="shatranj" style="width: 100%;height:600px">
+        <div class="image-text">
+          <p class="text-white">what are we doing</p>
+        </div>
+      </div> -->
+         <div class="container-fluid" style="width: 100%;height:600px;">
           <div class="row">
-            <div class="col-sm-6 col-md-6 ms-5" style="width:700px;height:550px">
-              <p class="mt-5 text-info fs-5 text-uppercase">send a message</p>
+            <div class="col-sm  ms-5">
+                <p class="mt-3 text-info fs-5 text-uppercase">send a message</p>
               <h1 class="text-uppercase font-weight-bold">get in <span class="bg-info bg-opacity-25 px-3 py-1"> tuch</span></h1>
               <p class="text-secondary">We will respond to your message as soon as possible.</p>
               <form>
@@ -486,8 +533,8 @@
                   </div>
                   <div class="col">
                     <input type="text" class="form-control form-control-lg" style="background-color: gainsboro;" placeholder="Email" name="email">
-                  </div>
-                </div>
+                  </div> 
+                 </div>
                 <div class="row mt-3">
                   <div class="col d-flex">
                     <input type="text" class="form-control form-control-lg" style="background-color: gainsboro;" placeholder="Phone" name="phone" style="width: 350px;">
@@ -500,7 +547,7 @@
                       <option>Middle Marketing</option>
                       <option>Legal Consulting</option>
                       <option>Regulatory Risk</option>
-                      <option>Other</option>
+                       <option>Other</option>
                   </select>
                   </div>
                 </div>
@@ -516,154 +563,151 @@
             </div>
         </div>
             
-          </div>
-        </div>
-        
-        <div class="col-sm-6 col-md-6 mt-4">
-         <div class="container bg-white mt-5 ms-5" style="height:500px">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="font-weight-bold">Example Inc.</h3>
-              <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</p>
-              <p class="text-secondary">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link fs-5"  style="color: rgb(5, 146, 134)"">
-                        <i class="fas fa-phone-alt mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
-                        +1 (305) 1234-5678
-                    </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link fs-5" style="color: rgb(5, 146, 134)">
-                      <i class="fas fa-envelope mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
-                      hello@example.com
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link fs-5" style="color: rgb(5, 146, 134)">
-                    <i class="fas fa-map-marker-alt mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
-                    Main Avenue, 987
-                </a>
-            </li>
-            </div>
-          </div>
-          <button id="btn1" class="btn border-success text-white">VIEW MAP</button>
-         </div>
-        </div>
-      </div>
-      <footer class="bg-dark text-white pt-5 pb-4" style="width: 100%;height:600px">
-          <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-                <div class="col-sm-12 col-lg-3 col-xl-3 mx-auto mt-3">
-                  <div class="btn-group">
-                    <button class="bg-info bg-opacity-25 text-info px-3 fs-3 rounded-start-5" style="border: none;">NEX</button>
-                    <button class="fs-3 bg-dark" style="border: none;">GEN</button>
+            <div class="col-sm me-5">
+                    <div class="container bg-white mt-4 ms-5" style="height:550px">
+                     <div class="row">
+                       <div class="col-12">
+                         <h3 class="font-weight-bold">Example Inc.</h3>
+                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</p>
+                         <p class="text-secondary">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+                         <ul class="navbar-nav">
+                           <li class="nav-item">
+                               <a href="#" class="nav-link fs-5"  style="color: rgb(5, 146, 134)"">
+                                   <i class="fas fa-phone-alt mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
+                                   +1 (305) 1234-5678
+                               </a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="#" class="nav-link fs-5" style="color: rgb(5, 146, 134)">
+                                 <i class="fas fa-envelope mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
+                                 hello@example.com
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                           <a href="#" class="nav-link fs-5" style="color: rgb(5, 146, 134)">
+                               <i class="fas fa-map-marker-alt mr-2 text-success bg-success bg-opacity-10 rounded-circle p-3"></i>
+                               Main Avenue, 987
+                           </a>
+                       </li>
+                       </div>
+                     </div>
+                     <button id="btn1" class="btn border-success bg-success text-white">VIEW MAP</button>
+                    </div>
                    </div>
-                  <p class="mt-3">A Functional HTML Template <br>  for Corporate & Business.</p>
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fas fa-phone-alt mr-2"></i>
-                            +1 (305) 1234-5678
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fas fa-envelope mr-2"></i>
-                            hello@example.com
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fas fa-map-marker-alt mr-2"></i>
-                            Main Avenue, 987
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="mt-4 btn outline-button btn-outline-info text-white smooth-anchor pt-3" id="btn" style="width:200px;height:55px;text-align: center;">GET IN TOUCH</a>
-                    </li>
-                </ul>
-                </div>
-                <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3 bg-secondary bg-opacity-10 rounded-2">
-                  <h4 class=" mb-4 font-weight-bold text-white mt-4">about</h4>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;"><pre style="font-size: 20px;">> the company</pre></a>
-                  </p>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">> institutional</a>
-                  </p>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">> sosial & events</a>
-                  </p>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">> innovatopn</a>
-                  </p>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">> Environment</a>
-                  </p>
-                  <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">> technology</a>
-                  </p>
-                </div>
-                <div class="col-sm-12 col-lg-3 col-xl-2 mx-auto mt-3 bg-secondary bg-opacity-10 rounded-2">
-                  <h4 class="mb-4 font-weight-bold text-white mt-4">services</h4>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Audit & Assurance</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> finansial Advisory</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Analistics M&A</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Middle Marketing</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Legal Consolting</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Regulatory Risk</a>
-                  </p>
-                </div>
-                <div class="col-sm-12 col-lg-3 col-xl-3 mx-auto mt-3 bg-secondary bg-opacity-10 rounded-2">
-                  <h4 class="mb-4 font-weight-bold text-white mt-4">support</h4>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">>Responsibility</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Terms of Use</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> About Cookies</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Privacy Policy</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Accessibility</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="#" style="text-decoration: none;">> Information</a>
-                  </p>
-                </div>
+                 </div>
+
             </div>
-            <div>
-          </div>
         </div>
-      </footer>
-      <div class="container-fluid" style="background-color: black;">
-        <div class="container">
+    </div>
+      <footer class=" text-white pt-5 pb-4" style="background-color: rgb(23, 22, 22);">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+              <div class="col-sm col-lg-3 col-xl-3 mx-auto mt-3">
+                <div class="btn-group">
+                  <button class="bg-info bg-opacity-25 text-info px-3 fs-3 rounded-start-5" style="border: none;">NEX</button>
+                  <button class="fs-3 bg-dark" style="border: none;">GEN</button>
+                 </div>
+                <p class="mt-3">A Functional HTML Template <br>  for Corporate & Business.</p>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">
+                          <i class="fas fa-phone-alt mr-2"></i>
+                          +1 (305) 1234-5678
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">
+                          <i class="fas fa-envelope mr-2"></i>
+                          hello@example.com
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">
+                          <i class="fas fa-map-marker-alt mr-2"></i>
+                          Main Avenue, 987
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#contact" class="mt-4 btn outline-button btn-outline-info text-white smooth-anchor pt-3" id="btn" style="width:200px;height:55px;text-align: center;">GET IN TOUCH</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col-sm col-lg-2 mx-auto mt-3 rounded-2 bg-dark">
+                <h4 class=" mb-4 font-weight-bold text-white mt-4">about</h4>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> the company</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> institutional</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> sosial & events</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> innovatopn</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Environment</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> technology</a>
+                </p>
+              </div>
+              <div class="col-sm col-lg-2  mx-auto mt-3  rounded-2 bg-dark">
+                <h4 class="mb-4 font-weight-bold text-white mt-4">services</h4>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Audit & Assurance</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> finansial Advisory</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Analistics M&A</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Middle Marketing</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Legal Consolting</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Regulatory Risk</a>
+                </p>
+              </div>
+              <div class="col-sm col-lg-2  mx-auto mt-3  rounded-2 bg-dark">
+                <h4 class="mb-4 font-weight-bold text-white mt-4">support</h4>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i>Responsibility</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Terms of Use</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> About Cookies</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Privacy Policy</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Accessibility</a>
+                </p>
+                <p>
+                  <a class="text-white" href="#" style="text-decoration: none;"><i class="fa-solid fa-angle-right"></i> Information</a>
+                </p>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <div class="container-fluid" style="background-color: black;" style="margin-bottom: 0px;">
         <div class="row">
-          <div class="col-lg-6 col-sm-12 text-center">
+          <div class="col-sm  text-center">
             <p style="color: gray;">Enjoy the low price. We are tracking any intention of piracy.</p>
           </div>
-          <div class="col-lg-6 col-sm-12 text-center">
+          <div class="col-sm text-center">
             <p style="color: gray;">© 2023 NEXGEN is Proudly Powered by <a class="text-info" style="text-decoration: none;" href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
           </div>
-            </div>
-    </div>
-    </div>
+        </div>
+        </div>
     <script>
       // Function to show the selected image set
       function showImages(imagesId) {
